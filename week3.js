@@ -1,6 +1,7 @@
-const ages =[30,40,50];
-const newage=[];
-ages.forEach(function (age) => {
-    newage.push(age+5)
-    
-});
+function circle(radius){
+this.radius=3;
+document.write(radius);
+
+}
+
+circle.call({},9);
