@@ -1,20 +1,14 @@
-const button = document.querySelector("#change-color");
-button.addEventListener("click",color-mahdi);
-function color-mahdi(){
-    document.style.backgroundColor='green';
+const b1=document.querySelector("mychange");
+b1=addEventListener('click',mychangecolor);
+
+function mychangecolor (){
+
+    document.body.style.backgroundColor='green';
+   
+    var paragraph = document.createElement("p");
+    var textcontent2= document.getElementById("text-cont")
+
+    paragraph.textContent = "write by mohammad";
+
+    textcontent2.appendChild(paragraph);
 }
-
-
-const button = document.querySelector("#change-color-button");
-button.addEventListener("click", changeColor);
-
-// Define the function that changes the background color
-function changeColor() {
-  // Generate a random color
-  const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
-  
-  // Set the background color of the page to the random color
-  document.body.style.backgroundColor = randomColor;
-}
-
-

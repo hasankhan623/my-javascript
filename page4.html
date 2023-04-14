@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add some text example</title>
+</head>
+<body>
+  <button id="add-text-btn">Add some text</button>
+  <div id="text"></div>
+
+  <script>
+    var addButton = document.getElementById("add-text-btn");
+    var textContainer = document.getElementById("text");
+
+    addButton.addEventListener("click", function() {
+      // create a new paragraph element
+      var newParagraph = document.createElement("p");
+      newParagraph.textContent = "Read more below.";
+
+      // add the new paragraph to the text container
+      textContainer.appendChild(newParagraph);
+    });
+  </script>
+</body>
+</html>
