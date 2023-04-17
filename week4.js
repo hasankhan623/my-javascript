@@ -9,6 +9,7 @@ function mychangecolor (){
     var textcontent2= document.getElementById("text-cont")
 
     paragraph.textContent = "write by mohammad";
+    paragraph.textContent = "write by mohammad";
 
     textcontent2.appendChild(paragraph);
 }
