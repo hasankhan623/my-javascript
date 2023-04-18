@@ -10,6 +10,7 @@ function mychangecolor (){
 
     paragraph.textContent = "write by mohammad";
     paragraph.textContent = "write by mohammad";
-
+    paragraph.textContent = "write by mohammad";
+    paragraph.textContent = "write by mohammad";
     textcontent2.appendChild(paragraph);
 }
